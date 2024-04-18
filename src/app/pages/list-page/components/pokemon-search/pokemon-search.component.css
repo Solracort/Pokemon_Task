@@ -1,0 +1,20 @@
+.search-container{
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+.search-results{
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+input{
+    width:10rem;
+    height:2rem;
+}
+li{
+    list-style-type: none;
+}
+.link-search {
+    text-decoration: none;
+}

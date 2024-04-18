@@ -1,0 +1,40 @@
+.pokemon-details{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top:2rem;
+    padding:3rem;
+    width:10rem;
+    height:15rem;
+    border:gold solid 5px;
+    background-color: #3498db; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px #3498db; 
+    position: relative;
+    overflow: hidden;
+}
+
+.title{
+    margin:auto;
+    width:50%;
+}
+.content{
+    margin:auto;
+    width:100%;
+    padding:0.5rem;
+}
+p{
+    font-weight:bold;
+}
+.action{
+    width:100%;
+    padding-top:1.5rem;
+}
+.btn-back{
+    display:flex;
+    justify-content: center;
+    background-color:gold;
+    padding:1rem;
+    border-radius:15px;
+    margin:auto;
+}

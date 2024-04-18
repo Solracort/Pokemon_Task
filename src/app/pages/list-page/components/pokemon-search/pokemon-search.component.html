@@ -1,0 +1,12 @@
+<div class="search-container">
+  <div class="search-box">
+    <input type="text" placeholder="Search Pokémon" (input)="search($event)" />
+    <div>
+      <ul class="search-results" *ngIf="searchResults">
+        <li *ngFor="let result of searchResults">
+          <a [routerLink]="['/details', result.id]" class="link-search">{{ result.name }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

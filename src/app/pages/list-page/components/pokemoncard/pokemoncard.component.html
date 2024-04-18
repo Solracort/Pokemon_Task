@@ -1,0 +1,11 @@
+<div class="front" (click)="goToDetailsPage(pokemon)">
+  <h2 class="card-title">
+    Id: {{ pokemon.id }}
+    {{ pokemon.name | titlecase }}
+  </h2>
+  <img
+    [src]="pokemon.sprites?.front_default"
+    alt="Pokemon Image"
+  />
+</div>
+

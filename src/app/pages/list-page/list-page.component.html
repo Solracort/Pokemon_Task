@@ -1,0 +1,13 @@
+<section class="page-container">
+  <h1 class="page-title">POKEMON - LIST</h1>
+  <div class="pokemon-container">
+    <div *ngFor="let pokemon of pokemonList">
+      <div class="pokemon-card">
+        <pokemon-card [pokemon]="pokemon"></pokemon-card>
+      </div>
+    </div>
+  </div>
+  <div>
+    <pokemon-search></pokemon-search>
+  </div>
+</section>
